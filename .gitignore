@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.vite/
+.env
+.env.*
+!.env.example
+*.log
+*.local
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+
+# Source captures and verification exports are intentionally kept out of the code repository.
+asset/
+verification/

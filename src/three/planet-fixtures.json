@@ -1,0 +1,149 @@
+{
+  "coordinateSpace": "world: source Y-up, sphere center subtracted, scale 5.424892",
+  "navigationRadius": 2.4,
+  "characterRadius": 0.09,
+  "chair": {
+    "seatCenter": [
+      -0.3320756210961653,
+      2.1949692786002486,
+      0.93667866684474
+    ],
+    "normal": [
+      -0.13782119430627615,
+      0.9109771034792924,
+      0.3887493219755762
+    ],
+    "forward": [
+      0.021794887612892094,
+      -0.3896104395496386,
+      0.9207218300159277
+    ],
+    "surfaceNormal": [
+      0.0,
+      0.9911096234017489,
+      0.13304778991190794
+    ],
+    "rootPosition": [
+      -0.2868702693637067,
+      1.8961687886590406,
+      0.809168889236751
+    ],
+    "standDirection": [
+      -0.13274318600348917,
+      0.8391591303796679,
+      0.5274383380738284
+    ],
+    "seatWidth": 0.3,
+    "seatDepth": 0.31,
+    "seatHeightAboveBase": 0.228,
+    "height": 0.46,
+    "measurementTolerance": 0.02,
+    "seat": [
+      -0.3320756210961653,
+      2.1949692786002486,
+      0.93667866684474
+    ],
+    "up": [
+      -0.13782119430627615,
+      0.9109771034792924,
+      0.3887493219755762
+    ],
+    "seatHeight": 0.228
+  },
+  "rose": {
+    "sourceBase": [
+      -0.218,
+      0.793,
+      0.17
+    ],
+    "scale": 0.8
+  },
+  "blockers": [
+    {
+      "id": "volcano",
+      "kind": "volcano",
+      "direction": [
+        0.3568099543069964,
+        0.931379915171346,
+        0.07223648747589782
+      ],
+      "radius": 0.47
+    },
+    {
+      "id": "front-rock",
+      "kind": "rock",
+      "direction": [
+        -0.43267308832849,
+        0.18146711499255821,
+        0.8830989099826613
+      ],
+      "radius": 0.36
+    },
+    {
+      "id": "east-rock",
+      "kind": "rock",
+      "direction": [
+        0.5085769460607034,
+        0.42159030747099896,
+        0.7507403696232653
+      ],
+      "radius": 0.3
+    },
+    {
+      "id": "low-east-rock",
+      "kind": "rock",
+      "direction": [
+        0.7646945796175003,
+        -0.3839613377089361,
+        0.5175093149387544
+      ],
+      "radius": 0.29
+    },
+    {
+      "id": "deep-front-crater",
+      "kind": "pit",
+      "direction": [
+        -0.4906863974708985,
+        -0.37472831442539456,
+        0.7866419450454787
+      ],
+      "radius": 0.34
+    },
+    {
+      "id": "small-front-crater",
+      "kind": "pit",
+      "direction": [
+        -0.09874613150581021,
+        -0.4448238016827182,
+        0.890157843850837
+      ],
+      "radius": 0.11
+    },
+    {
+      "id": "west-rock",
+      "kind": "rock",
+      "direction": [
+        -0.6230449123846193,
+        0.5745277572966453,
+        0.5307851667551844
+      ],
+      "radius": 0.2
+    },
+    {
+      "id": "chair",
+      "kind": "chair",
+      "direction": [
+        -0.13782119430627618,
+        0.9109771034792924,
+        0.38874932197557627
+      ],
+      "radius": 0.17
+    }
+  ],
+  "notes": [
+    "Obstacle radius is a surface arc radius in world units; add the character radius once.",
+    "Rock/pit proxies conservatively cover visually identified front-side fixtures; no claim of exhaustive hidden-side coverage.",
+    "Seat center was sampled from the upper central surface; forward is projected to the radial tangent so navigation orientation stays stable.",
+    "Final visual checks must include chair approach, standing exit and volcano interaction range."
+  ]
+}
